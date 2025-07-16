@@ -1,0 +1,8 @@
+b = int(input("Enter value for bits: "))
+mb = b/(1024*1024*8)
+gb = b/(1024*1024*1024*8)
+tb = b/(1024*1024*1024*1024*8)
+print("Bits: ",b)
+print("Megabytes: ",mb)
+print("Gigabytes: ",gb)
+print("Terabytes: ",tb)

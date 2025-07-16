@@ -1,11 +1,9 @@
-#Bitwise Operators
-f = 1
-e = 10
-print("~f: ", ~f)
-print("e & f: ", e&f)
-print("e | f: ", e|f)
-print("e >> f: ", e>>f)
-print("e << f: ", e<<f)
-
-print(" ")
-print(" ")
+print("Bitwise Operations")
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
+print("Bitwise AND: x&y = ",(x&y))
+print("Bitwise OR : x|y = ",(x|y))
+print("Bitwise NOT: ~x = ",(~x))
+print("Bitwise XOR: x^y = ",(x^y))
+print("Bitwise 'Zero fill left shift': x<<y = ",(x<<y))
+print("Bitwise 'Signed right shift'  : x>>y = ",(x>>y))
